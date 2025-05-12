@@ -18,6 +18,7 @@ plt.figure(1, figsize=(8, 6))
 colors = ['red', 'green', 'blue']
 for i in range(len(labels)):
     plt.scatter(X[y == i, 0], X[y == i, 1], color=colors[i], label=labels[i])
+# disegna 3 gruppi di punti colorati, ciascuno in un colore diverso, corrispondente a una classe del dataset Iris
 
 plt.legend()
 
